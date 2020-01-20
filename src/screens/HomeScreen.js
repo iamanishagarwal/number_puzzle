@@ -1,12 +1,12 @@
 import React from 'react';
 import {View, Text} from 'react-native';
 
-const AppNavigator = () => {
+const HomeScreen = () => {
   return (
     <View>
-      <Text>Welcome to App AppNavigator</Text>
+      <Text>Welcome to HomeScreen</Text>
     </View>
   );
 };
 
-export default AppNavigator;
+export default HomeScreen;
