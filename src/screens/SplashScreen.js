@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import {StyleSheet, View, Image} from 'react-native';
+import {StyleSheet, StatusBar, View, Image} from 'react-native';
 
 const SplashScreen = props => {
   useEffect(() => {
@@ -8,6 +8,7 @@ const SplashScreen = props => {
 
   return (
     <View style={style.imageContainer}>
+      <StatusBar backgroundColor="#B2FF59" barStyle="dark-content" />
       <Image style={style.image} source={require('../../assets/splash.png')} />
       <Image style={style.image} source={require('../../assets/logo.png')} />
     </View>
